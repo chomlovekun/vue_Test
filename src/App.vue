@@ -1,5 +1,6 @@
 <template>
   <div id="app" style="margin-top: 0px;">
+    <h1>lkafdjghoksdjghlkjdsfhgklsjdhfgkjsdflkgjhsdlkfjg</h1>
     <navbar text="Vue-Recipes"></navbar>
     <button class="btn btn_success" @click="isnew = !isnew"> show</button>
     <RacityForm v-if="isnew" @savereceipt="getdata"></RacityForm>
